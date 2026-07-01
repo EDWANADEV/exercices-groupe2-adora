@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contener">
+      <div>
+        <input type="text" value="0"  id="screen" placeholder="0"/>
+      </div>
+      <div class="touch">
+        <table border="1" cellpadding="25" cellspacing="0">
+          <tr>
+            <td id="delete" value="c">c</td>
+            <td class="value" value="(">(</td>
+            <td class="value" value=")">)</td>
+            <td class="value" value="/">/</td>
+          </tr>
+          <tr>
+            <td class="value" value="7" >7</td>
+            <td class="value" value="8">8</td>
+            <td class="value" value="9">9</td>
+            <td class="value" value="*">*</td>
+          </tr>
+          <tr>
+            <td class="value" value="4">4</td>
+            <td class="value" value="5">5</td>
+            <td class="value" value="6">6</td>
+            <td class="value" value="-">-</td>
+          </tr>
+          <tr>
+            <td class="value" value="1">1</td>
+            <td class="value" value="2">2</td>
+            <td class="value" value="3">3</td>
+            <td class="value" value="+">+</td>
+          </tr>
+          <tr>
+            <td class="value" value="0">0</td>
+            <td class="value" value=",">,</td>
+            <td value="=" id="equal" colspan="2">=</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

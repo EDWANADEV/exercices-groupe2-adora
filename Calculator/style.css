@@ -10,7 +10,7 @@ body {
   background: #3b3247;
   margin-top: 3%;
 }
-#screen::placeholder{
+#screen::placeholder {
   font-size: 30px;
 }
 #screen {
@@ -26,7 +26,7 @@ body {
 }
 table {
   background: linear-gradient(
-    -10deg,
+    -130deg,
     #152111,
     #213e37,
     #20383c,
@@ -36,30 +36,27 @@ table {
   border: none;
 }
 td {
-    cursor: pointer;
+  cursor: pointer;
   font-size: 25px;
-border: 1px solid rgba(255, 255, 255, 0.15);
-text-align: center;
-padding-right: 30px;
-
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding-right: 30px;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
   font-size: 25px;
-border: 1px solid rgba(255, 255, 255, 0.15);
-text-align: center;
-padding-right: 30px;
-
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding-right: 30px;
 }
-#equal{
-    background: #2C9195;
+#equal {
+  background: #2c9195;
 }
-@media(max-width:300px){
-    td{
-        font-size: 20px;
-    }
-    #screen{
-        width: 97%;
-    }
+@media (max-width: 300px) {
+  td {
+    font-size: 20px;
+  }
+  #screen {
+    width: 97%;
+  }
 }
-    

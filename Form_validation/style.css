@@ -87,20 +87,24 @@ textarea {
   }
 }
 .success {
-    content: "";
-    display: block;
+    display: none;
     border: 1px solid green;
     font-size: 17px;
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     position: relative;
     background: rgb(95, 207, 95);
     color: white;
     text-align: center;
-    top: 70%;
-    left: 53%;
+    top: 35%;
+    left: 31%;
+    align-items: center;
     font-size: 80px;
     font-weight: 800;
     padding-top: 10px;
+    visibility: hidden;
+  }
+  .show{
+    display: block;
   }

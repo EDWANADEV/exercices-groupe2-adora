@@ -6,6 +6,7 @@ const error0 = document.getElementById("error0");
 const error1 = document.getElementById("error1");
 const error2 = document.getElementById("error2");
 var fieldset = document.querySelector("fieldset");
+const success=document.getElementById("success_mes")
 
 form.addEventListener("submit", (e) => {
     e.preventDefault()
@@ -22,8 +23,9 @@ form.addEventListener("submit", (e) => {
     valid = false;
   }
   if (valid) {
-    form.classList.add("success");
-    form.value="✓"
+    form.style.display="none";
+    success.style.display="block"
+    success.style.visibility="visible"
   }
 });
 name.addEventListener("input", checkName);
